@@ -31,11 +31,11 @@ states, states from state1 to state6 are simple FSM states which just accept cer
 ## Execution
 ### 1. Set up an account in Facebook Developer and your page.
 ### 2. Download ngrok
-### 3. run ngrok on port 8088:(Linux version)
+### 3. Run ngrok on port 8088:(Linux version)
 ```sh
     ./ngrok http 8088
 ```
-### 4. run the chatbot
+### 4. Run the chatbot
 ## Reference
 * [Facebook Developer](https://developers.facebook.com)
 * [Wikipedia tf-idf](https://en.wikipedia.org/wiki/Tf-idf)
