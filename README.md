@@ -7,11 +7,11 @@ This project is completed by Aaron-Chang.
 *   [FSM Diagram](#diagram)
 *   [Execution](#exec)
 *   [Reference](#ref)
-*  *  *
+=============================
 <h2 id="intro">Introduction</h2>
     This is an IR-based traditional chinese chatbot which can only be implemented on Messenger platfrom. The json file is from "中國信託(CTBC)", and I use BM25(Best Match25) to complete the task. Furthermore, the chatbot has 7 states where state0 is the initial state, and only state0 can perform BM25. As regards other states, state1 to state6 are simple FSM states which just accept certain strings.
 <h2 id="diagram">FSM Diagram</h2>
-![fsm] (./computation_theory_project/diagram.png)
+![fsm](/computation_theory_project/diagram.png)
 <h3>To change state0 to state1</h3>
     *你好*
 <h3>To change state0 to state2</h3>
