@@ -7,7 +7,7 @@ This project is completed by Aaron-Chang.
     This is an IR-based traditional chinese chatbot which can only be implemented on Messenger platfrom. 
 The json file is from "中國信託(CTBC)", and I use BM25(Best Match25) to complete the task. Furthermore,the
 chatbot has 7 states where state0 is the initial state, and only state0 can perform BM25. As regards other
-states, state1 to state6 are simple FSM states which just accept certain strings.
+states, states from state1 to state6 are simple FSM states which just accept certain strings.
 ```
 ## FSM Diagram
 ![fsm](./computation_theory_project/diagram.png)
