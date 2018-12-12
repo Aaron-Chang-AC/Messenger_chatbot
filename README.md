@@ -1,6 +1,7 @@
 # Messenger_chatbot
+=================
+This project is completed by Aaron-Chang.
 
-##This project is completed by Aaron-Chang.
 =================
 
 *   [Introduction](#intro)
@@ -17,21 +18,21 @@ accept certain strings.
 <h2 id="diagram">FSM Diagram</h2>
 ![fsm](diagram.png)
 To change state0 to state1:
-    "你好"
+    *你好*
 To change state0 to state2:
-    "你是誰"
+    *你是誰*
 To change state0 to state3:
-    "今天天氣很好"
+    *今天天氣很好*
 To change state0 to state4:
-    "今天空氣很糟糕"
+    *今天空氣很糟糕*
 To change state4 to state5:
-    "你會建議使用哪種口罩"
+    *你會建議使用哪種口罩*
 To change state5 to state6:
-    "謝謝"
+    *謝謝*
 In state6:
-    "謝謝"
+    *謝謝*
 To return to state0:
-    "return"
+    *return*
 <h2 id="exec">Execution</h2>
 1. Set up an account in [Facebook Developer][src] and your page.
 [src]: https://developers.facebook.com
